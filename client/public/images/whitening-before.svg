@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+      
+    <defs>
+      <linearGradient id="bgw1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fdf6e3"/>
+        <stop offset="1" stop-color="#f3e6c4"/>
+      </linearGradient>
+      <linearGradient id="toothw1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#eef1f5"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgw1)"/>
+    
+      
+    <path d="M 90 190 Q 300 90 510 190 Q 300 150 90 190 Z" fill="#c46a72" opacity="0.9"/>
+    <path d="M 90 260 Q 300 340 510 260 Q 300 300 90 260 Z" fill="#b85862" opacity="0.9"/>
+    
+      <rect x="110.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 132.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="158.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 180.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="206.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 228.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="254.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 276.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="302.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 324.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="350.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 372.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="398.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 420.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="446.0" y="150.0" width="44" height="55" rx="6" fill="#d8c37a" transform="rotate(0.0 468.0 177.5)" stroke="#d8dde4" stroke-width="1.5"/><rect x="110.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 132.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="158.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 180.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="206.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 228.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="254.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 276.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="302.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 324.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="350.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 372.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="398.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 420.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="446.0" y="258.0" width="44" height="42" rx="6" fill="#d3c07a" transform="rotate(0.0 468.0 279.0)" stroke="#d8dde4" stroke-width="1.5"/>
+      <text x="300.0" y="422" text-anchor="middle" font-family="Nunito, Arial, sans-serif"
+      font-size="26" font-weight="800" fill="#8a6d1f" letter-spacing="1">BEFORE</text>
+    </svg>

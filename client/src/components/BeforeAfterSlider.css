@@ -1,0 +1,129 @@
+.bas__section {
+  padding: 72px 0;
+  background: var(--navy);
+}
+
+.bas__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.bas__wrap { display: flex; flex-direction: column; gap: 10px; }
+
+.bas__label {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 0.05em;
+}
+
+.bas__container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: col-resize;
+  user-select: none;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+/* After image — sits behind, full width */
+.bas__img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+/* Before clip wrapper */
+.bas__before-wrap {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.bas__img--before {
+  width: auto;
+  min-width: 100%;
+  /* Keep before image full width inside clip */
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Divider */
+.bas__divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: white;
+  z-index: 2;
+  transform: translateX(-50%);
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+/* Handle */
+.bas__handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--teal, #2BBFA4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: col-resize;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  transition: transform 0.15s ease, background 0.15s ease;
+  border: 3px solid white;
+}
+.bas__handle:hover {
+  transform: translate(-50%, -50%) scale(1.12);
+  background: #1E9E88;
+}
+.bas__handle:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+/* Before / After tags */
+.bas__tag {
+  position: absolute;
+  top: 12px;
+  z-index: 3;
+  font-family: var(--font-display, 'Nunito', sans-serif);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  padding: 4px 10px;
+  border-radius: 50px;
+  pointer-events: none;
+}
+.bas__tag--before {
+  left: 12px;
+  background: rgba(27,42,74,0.85);
+  color: white;
+}
+.bas__tag--after {
+  right: 12px;
+  background: rgba(43,191,164,0.9);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .bas__grid { grid-template-columns: 1fr; max-width: 480px; }
+}

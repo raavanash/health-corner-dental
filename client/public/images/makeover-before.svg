@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+      
+    <defs>
+      <linearGradient id="bgm1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fbeee0"/>
+        <stop offset="1" stop-color="#f0dcc0"/>
+      </linearGradient>
+      <linearGradient id="toothm1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#eef1f5"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgm1)"/>
+    
+      
+    <path d="M 90 190 Q 300 90 510 190 Q 300 150 90 190 Z" fill="#c46a72" opacity="0.9"/>
+    <path d="M 90 260 Q 300 340 510 260 Q 300 300 90 260 Z" fill="#b85862" opacity="0.9"/>
+    
+      <rect x="117.0" y="146.8" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(-7.5 141.0 174.3)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="170.0" y="152.7" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(-9.2 194.0 180.2)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="223.0" y="150.6" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(-2.9 247.0 178.1)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="276.0" y="142.0" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(0.2 300.0 169.5)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="329.0" y="141.7" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(-1.4 353.0 169.2)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="382.0" y="142.3" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(-8.8 406.0 169.8)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="435.0" y="148.6" width="48" height="55" rx="6" fill="#dcc98c" transform="rotate(7.1 459.0 176.1)" stroke="#d8dde4" stroke-width="1.5"/><rect x="117.0" y="252.7" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(-4.6 141.0 272.7)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="170.0" y="259.8" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(7.5 194.0 279.8)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="223.0" y="259.1" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(-1.7 247.0 279.1)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="276.0" y="264.7" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(-7.6 300.0 284.7)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="329.0" y="263.0" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(-3.5 353.0 283.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="382.0" y="253.0" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(-6.4 406.0 273.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="435.0" y="255.3" width="48" height="40" rx="6" fill="#d8c589" transform="rotate(5.3 459.0 275.3)" stroke="#d8dde4" stroke-width="1.5"/>
+      <text x="300.0" y="422" text-anchor="middle" font-family="Nunito, Arial, sans-serif"
+      font-size="26" font-weight="800" fill="#8a5a1f" letter-spacing="1">BEFORE</text>
+    </svg>

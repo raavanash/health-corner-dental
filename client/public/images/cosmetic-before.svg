@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+      
+    <defs>
+      <linearGradient id="bgc1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f4f1ea"/>
+        <stop offset="1" stop-color="#e9e2ce"/>
+      </linearGradient>
+      <linearGradient id="toothc1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#eef1f5"/>
+      </linearGradient>
+    </defs>
+    <rect width="600" height="450" fill="url(#bgc1)"/>
+    
+      
+    <path d="M 90 190 Q 300 90 510 190 Q 300 150 90 190 Z" fill="#c46a72" opacity="0.9"/>
+    <path d="M 90 260 Q 300 340 510 260 Q 300 300 90 260 Z" fill="#b85862" opacity="0.9"/>
+    
+      <rect x="130.0" y="151.5" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(3.5 155.0 179.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="188.0" y="153.5" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(6.4 213.0 181.0)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="246.0" y="152.9" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(6.1 271.0 180.4)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="304.0" y="144.3" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(-0.5 329.0 171.8)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="362.0" y="155.3" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(2.1 387.0 182.8)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="420.0" y="154.8" width="50" height="55" rx="6" fill="#e7e2d4" transform="rotate(-5.6 445.0 182.3)" stroke="#d8dde4" stroke-width="1.5"/><rect x="130.0" y="257.8" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(-2.4 155.0 277.8)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="188.0" y="258.4" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(0.7 213.0 278.4)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="246.0" y="254.1" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(-2.7 271.0 274.1)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="304.0" y="256.2" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(4.0 329.0 276.2)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="362.0" y="260.1" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(-3.3 387.0 280.1)" stroke="#d8dde4" stroke-width="1.5"/>
+<rect x="420.0" y="260.4" width="50" height="40" rx="6" fill="#e7e2d4" transform="rotate(-3.5 445.0 280.4)" stroke="#d8dde4" stroke-width="1.5"/>
+      <text x="300.0" y="422" text-anchor="middle" font-family="Nunito, Arial, sans-serif"
+      font-size="26" font-weight="800" fill="#7a6a3d" letter-spacing="1">BEFORE</text>
+    </svg>
