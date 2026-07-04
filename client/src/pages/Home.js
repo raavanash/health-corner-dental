@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Shield, Clock, Heart, CheckCircle, Phone } from 'lucide-react';
 import { SERVICES, TESTIMONIALS } from '../sampleData';
