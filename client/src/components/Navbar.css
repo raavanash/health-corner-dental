@@ -14,6 +14,22 @@
   box-shadow: var(--shadow-sm);
   padding: 12px 0;
 }
+/* Non-scrolled state: page hero behind navbar is always dark, so text must be white */
+.navbar:not(.scrolled) .navbar__brand,
+.navbar:not(.scrolled) .navbar__link,
+.navbar:not(.scrolled) .navbar__phone,
+.navbar:not(.scrolled) .navbar__burger {
+  color: #ffffff;
+}
+.navbar:not(.scrolled) .navbar__brand strong {
+  color: var(--teal);
+}
+.navbar:not(.scrolled) .navbar__link:hover,
+.navbar:not(.scrolled) .navbar__link.active {
+  color: var(--teal);
+  background: rgba(255,255,255,0.14);
+}
+
 .navbar__inner {
   display: flex;
   align-items: center;

@@ -30,7 +30,7 @@ export default function Navbar() {
         {/* Brand */}
         <Link to="/" className="navbar__brand">
           <span className="navbar__logo-icon">🦷</span>
-          <span>Health <strong>Corner</strong></span>
+          <span>Dant <strong>Vriksha</strong></span>
         </Link>
 
         {/* Desktop nav */}
@@ -48,8 +48,8 @@ export default function Navbar() {
 
         {/* CTA + phone */}
         <div className="navbar__actions">
-          <a href="tel:+918952931744" className="navbar__phone">
-            <Phone size={15} /> 89529 31744
+          <a href="tel:+91886044606" className="navbar__phone">
+            <Phone size={15} /> 88604 4606
           </a>
           <Link to="/appointment" className="btn btn-primary navbar__cta">
             Book Now
@@ -70,8 +70,8 @@ export default function Navbar() {
         <Link to="/appointment" className="btn btn-primary" style={{ marginTop: 8 }}>
           Book Appointment
         </Link>
-        <a href="tel:+918952931744" className="navbar__phone" style={{ marginTop: 12 }}>
-          <Phone size={15} /> 89529 31744
+        <a href="tel:+918860446066" className="navbar__phone" style={{ marginTop: 12 }}>
+          <Phone size={15} /> 8860 446066
         </a>
       </div>
     </header>

@@ -5,11 +5,11 @@ import { useScrollReveal } from '../components/useScrollReveal';
 import './About.css';
 
 const DENTIST = {
-  name: 'Dr. Ayush Tanwar',
+  name: 'Dr. Rakesh Kumar Pandey',
   role: 'Founder & Dental Surgeon',
-  qualification: 'B.D.S. — Dental Surgeon',
-  photo: '/images/dr-ayush-tanwar.jpg',
-  bio: "Dr. Ayush Tanwar founded Health Corner Dental Clinic with a simple promise: your smile is our priority. He personally sees every patient who walks through the door, offering hygienic, painless, and affordable dental care — from routine check-ups to complete smile restoration.",
+  qualification: 'B.D.S. — Implantologist', // e.g. B.D.S., or whatever the certificate says
+  photo: '/images/doctor-dantvriksha.jpg',
+  bio: "Dr. Rakesh Kumar Pandey founded Dant Vriksha Dental Clinic with a simple promise: your smile is our priority. He personally sees every patient who walks through the door, offering hygienic, painless, and affordable dental care — from routine check-ups to complete smile restoration.",
 };
 
 export default function About() {
@@ -19,8 +19,8 @@ export default function About() {
       <section className="page-hero">
         <div className="container">
           <span className="section-label">Our Story</span>
-          <h1>About Health Corner Dental Clinic</h1>
-          <p>Your smile, our priority — caring, personal dentistry in Bikaner.</p>
+          <h1>About Dant Vriksha Dental Clinic</h1>
+          <p>Your smile, our priority — caring, personal dentistry in Gurugram.</p>
         </div>
       </section>
 
@@ -30,8 +30,8 @@ export default function About() {
           <div>
             <span className="section-label">Our Mission</span>
             <h2>Dentistry That Feels Human</h2>
-            <p>We started Health Corner Dental Clinic because we believed dental care could be different — warm, transparent, and genuinely focused on you rather than the clock. Every decision we make comes back to one question: is this the best thing for this patient?</p>
-            <p style={{ marginTop: 16 }}>As a single-doctor practice, Dr. Tanwar personally treats every patient who visits — no handoffs, no confusion about who's in charge of your care.</p>
+            <p>We started Dant Vriksha Dental Clinic because we believed dental care could be different — warm, transparent, and genuinely focused on you rather than the clock. Every decision we make comes back to one question: is this the best thing for this patient?</p>
+            <p style={{ marginTop: 16 }}>As a single-doctor practice, Dr. Rakesh Kumar Pandey personally treats every patient who visits — no handoffs, no confusion about who's in charge of your care.</p>
             <Link to="/appointment" className="btn btn-primary" style={{ marginTop: 28 }}>
               Meet Us in Person <ArrowRight size={17}/>
             </Link>
@@ -69,7 +69,7 @@ export default function About() {
               <span className="dentist-spotlight__qualification">{DENTIST.qualification}</span>
               <p>{DENTIST.bio}</p>
               <Link to="/appointment" className="btn btn-teal" style={{ marginTop: 8 }}>
-                Book With Dr. Tanwar <ArrowRight size={16}/>
+                Book With Dr. Rakesh Kumar Pandey <ArrowRight size={16}/>
               </Link>
             </div>
           </div>

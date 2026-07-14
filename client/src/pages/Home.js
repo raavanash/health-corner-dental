@@ -21,7 +21,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__copy">
-            <span className="section-label">Welcome to Health Corner Dental Clinic</span>
+            <span className="section-label">Welcome to Health Corner Dant Vriksha</span>
             <h1 className="hero__headline">
               A Healthier Smile<br/>
               <em>Starts Here</em>
@@ -55,11 +55,11 @@ export default function Home() {
               </svg>
               <div className="hero__float hero__float--tl">
                 <Star size={16} fill="#F5A623" color="#F5A623" />
-                <span><strong>4.9</strong> / 5 rating</span>
+                <span><strong>5.0</strong> / 5 rating</span>
               </div>
               <div className="hero__float hero__float--br">
                 <Heart size={16} color="#2BBFA4" />
-                <span><strong>5,200+</strong> happy patients</span>
+                <span><strong>387</strong> five-star reviews</span>
               </div>
             </div>
           </div>
@@ -73,9 +73,9 @@ export default function Home() {
       <section className="stats-bar">
         <div className="container stats-bar__grid">
           {[
-            { icon: <Heart size={22}/>, value: '5,200+', label: 'Patients Served' },
-            { icon: <Star  size={22}/>, value: '4.9★',   label: 'Average Rating'  },
-            { icon: <Clock size={22}/>, value: '15 yrs',  label: 'In Practice'     },
+            { icon: <Heart size={22}/>, value: '1000+', label: 'Patients Served' },
+            { icon: <Star  size={22}/>, value: '5.0★',   label: 'Google Rating'  },
+            { icon: <Clock size={22}/>, value: '15+ yrs',  label: 'In Practice'     },
             { icon: <Shield size={22}/>,value: '98%',    label: 'Satisfaction Rate'},
           ].map(s => (
             <div key={s.label} className="stat reveal">
@@ -140,7 +140,7 @@ export default function Home() {
             <div className="why-us__card">
               <div className="why-us__card-emoji">😊</div>
               <blockquote>
-                "I haven't dreaded a dental visit since I switched to Health Corner. Dr. Tanwar is warm, professional, and genuinely caring."
+                "I haven't dreaded a dental visit since I switched to Dant Vriksha. Dr. Rakesh Kumar Pamdey is warm, professional, and genuinely caring."
               </blockquote>
               <div className="why-us__card-author">
                 <strong>Rachel S.</strong> — Patient since 2019
@@ -193,7 +193,7 @@ export default function Home() {
             <Link to="/appointment" className="btn btn-white">
               Book Online <ArrowRight size={17} />
             </Link>
-            <a href="tel:+918952931744" className="btn btn-outline-white">
+            <a href="tel:+91886044606" className="btn btn-outline-white">
               <Phone size={17} /> Call Us Now
             </a>
           </div>

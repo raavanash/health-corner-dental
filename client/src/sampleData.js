@@ -35,7 +35,7 @@ export const SERVICES = [
 
 export const TESTIMONIALS = [
   { _id: '1', name: 'Sarah M.', role: 'Patient for 4 years', rating: 5,
-    text: "Dr. Tanwar is incredible. He made my root canal completely painless — I was shocked. I've been recommending Health Corner to everyone I know." },
+    text: "The doctor here is incredible. He made my root canal completely painless — I was shocked. I've been recommending Dant Vriksha to everyone I know." },
   { _id: '2', name: 'James T.', role: 'Invisalign patient', rating: 5,
     text: "I was nervous about getting Invisalign at 38, but the results have completely changed my confidence. The process was explained clearly every step of the way." },
   { _id: '3', name: 'Maya R.', role: 'New patient', rating: 5,

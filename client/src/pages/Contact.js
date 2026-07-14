@@ -31,9 +31,9 @@ export default function Contact() {
             <h3>Find Us</h3>
             <div className="contact-info__items">
               {[
-                { icon: <MapPin size={20}/>,  label: 'Address',  content: 'B-71 Murli Dhar Vyas Colony, Chungi Fatak\nKarmisar Road, Bikaner (Rajasthan)' },
-                { icon: <Phone size={20}/>,   label: 'Phone',    content: '89529 31744', href: 'tel:+918952931744' },
-                { icon: <Mail size={20}/>,    label: 'Email',    content: 'info@healthcornerdental.com', href: 'mailto:info@healthcornerdental.com' },
+                { icon: <MapPin size={20}/>,  label: 'Address',  content: 'Q1, 141, San Felipe Marg, opp. Park Hospital\nSouth City II, Sector 49, Gurugram, Haryana 122018' },
+                { icon: <Phone size={20}/>,   label: 'Phone',    content: '08860 446066', href: 'tel:+910886044606' },
+                { icon: <Mail size={20}/>,    label: 'Email',    content: 'info@dantvriksha.com', href: 'mailto:info@dantvriksha.com' },
                 { icon: <Clock size={20}/>,   label: 'Hours',    content: 'Mon–Fri: 8 AM – 6 PM\nSat: 9 AM – 3 PM\nSun: Closed' },
               ].map(item => (
                 <div key={item.label} className="contact-info__item">
@@ -49,7 +49,7 @@ export default function Contact() {
               ))}
             </div>
             <div className="contact-map">
-              <div className="contact-map__placeholder">📍 Chungi Fatak, Karmisar Road, Bikaner (Rajasthan)</div>
+              <div className="contact-map__placeholder">📍 South City II, Sector 49, Gurugram, Haryana</div>
             </div>
           </div>
 
