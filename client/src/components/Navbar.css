@@ -14,22 +14,6 @@
   box-shadow: var(--shadow-sm);
   padding: 12px 0;
 }
-/* Non-scrolled state: page hero behind navbar is always dark, so text must be white */
-.navbar:not(.scrolled) .navbar__brand,
-.navbar:not(.scrolled) .navbar__link,
-.navbar:not(.scrolled) .navbar__phone,
-.navbar:not(.scrolled) .navbar__burger {
-  color: #ffffff;
-}
-.navbar:not(.scrolled) .navbar__brand strong {
-  color: var(--teal);
-}
-.navbar:not(.scrolled) .navbar__link:hover,
-.navbar:not(.scrolled) .navbar__link.active {
-  color: var(--teal);
-  background: rgba(255,255,255,0.14);
-}
-
 .navbar__inner {
   display: flex;
   align-items: center;
@@ -87,7 +71,7 @@
 }
 .navbar__cta { padding: 10px 20px; font-size: 0.88rem; }
 
-/* Burger */
+/* Burger — generous tap target for mobile (44px min recommended touch size) */
 .navbar__burger {
   display: none;
   background: none;
@@ -95,6 +79,12 @@
   cursor: pointer;
   color: var(--navy);
   margin-left: auto;
+  padding: 10px;
+  min-width: 44px;
+  min-height: 44px;
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Mobile menu */
@@ -118,15 +108,32 @@
 }
 .navbar__mobile-link {
   width: 100%;
-  padding: 10px 0;
-  font-size: 1rem;
+  padding: 14px 4px;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--navy);
   border-bottom: 1px solid var(--gray-100);
 }
 
+/* ── Non-scrolled state: every page's top section is dark navy behind the
+   navbar, so brand/links/phone/burger need to be white until you scroll ── */
+.navbar:not(.scrolled) .navbar__brand,
+.navbar:not(.scrolled) .navbar__link,
+.navbar:not(.scrolled) .navbar__phone,
+.navbar:not(.scrolled) .navbar__burger {
+  color: #ffffff;
+}
+.navbar:not(.scrolled) .navbar__brand strong {
+  color: var(--teal);
+}
+.navbar:not(.scrolled) .navbar__link:hover,
+.navbar:not(.scrolled) .navbar__link.active {
+  color: var(--teal);
+  background: rgba(255,255,255,0.14);
+}
+
 @media (max-width: 900px) {
   .navbar__links, .navbar__actions { display: none; }
-  .navbar__burger { display: block; }
+  .navbar__burger { display: flex; }
   .navbar.scrolled { background: var(--white); }
 }
